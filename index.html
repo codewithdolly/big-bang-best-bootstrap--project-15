@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image/x-icon" href="./images/logo.png">
+    <link rel="icon" type="image/x-icon" href="./images/logo.png" />
     <title>BigBangBest</title>
     <!-- bootstrap -->
     <link
@@ -13,58 +13,88 @@
       integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" type="text/css" href="./CSS/home.css">
+    <!-- font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/f5542015f9.js"
+      crossorigin="anonymous"
+    ></script>
 
+    <!-- css -->
+    <link rel="stylesheet" type="text/css" href="./CSS/home.css" />
   </head>
 
-
   <body>
-<!-- Navbar starts -->
-<nav class="navbar navbar-expand-lg navbar-dark home-navbar py-2">
-    <a class="navbar-brand" href="/"><img src="./images/logo.png" alt="Big bang" width="40px"></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon toggle-btn"><i class="fa-solid fa-bars"></i></span>
-    </button>
-  
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-          </form>
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Dropdown
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Something else here</a>
+    <!-- Navbar starts -->
+    <nav class="navbar navbar-expand-lg navbar-dark home-navbar py-2 d-flex justify-content-between">
+      <a class="navbar-brand" href="/"
+        ><img src="./images/logo.png" alt="Big bang" width="40px"
+      /></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <i class="fa-solid fa-bars navbar-toggler-icon toggle-btn"></i>
+      </button>
+
+      <div class="collapse navbar-collapse my-lg-0" id="navbarSupportedContent">
+        <form class="form-inline my-lg-0">
+          <div class="input-group mr-1">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Username"
+              aria-label="Username"
+              aria-describedby="basic-addon1"
+            />
+            <div class="input-group-append">
+              <span class="input-group-text" id="basic-addon1"
+                ><i class="fa fa-solid fa fa-magnifying-glass"></i
+              ></span>
+            </div>
           </div>
-        </li>
-      </ul>
+        </form>
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Categories</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              More
+            </a>
+            <div class="dropdown-menu text-light more" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item more-item" href="#">Contact</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Privacy Policy</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Turm of service</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
 
-    </div>
-  </nav>
-
-<!-- Navbar Ends -->
-
-
-
-
-
-
-
-
-
-
-
+    <!-- Navbar Ends -->
 
     <!-- Js script -->
     <script

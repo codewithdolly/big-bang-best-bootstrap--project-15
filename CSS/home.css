@@ -13,7 +13,7 @@ body{
 }
 
 a{
-    color: white;
+    color: white !important;
 }
 .home-navbar{
     background-color: #325adc !important;
@@ -21,4 +21,15 @@ a{
 
 .toggle-btn{
     color: white !important;
+}
+
+.more{
+    background-color: #325adc;
+}
+
+.dropdown-item{
+    background-color: #325adc !important;
+}
+.dropdown-item:hover{
+    background-color: #325adc86;
 }
