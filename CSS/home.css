@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.primary {
+  color: #325adc  !important;
+}
+
+a{
+    color: white;
+}
+.home-navbar{
+    background-color: #325adc !important;
+}
+
+.toggle-btn{
+    color: white !important;
+}
