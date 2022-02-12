@@ -23,13 +23,13 @@ a{
     color: white !important;
 }
 
-.more{
-    background-color: #325adc;
-}
+
 
 .dropdown-item{
-    background-color: #325adc !important;
+   color: black !important;
+   background-color: white !important;
 }
-.dropdown-item:hover{
-    background-color: #325adc86;
+
+ul li{
+    list-style-type: none;
 }
