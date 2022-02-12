@@ -15,8 +15,13 @@ body{
 a{
     color: white !important;
 }
+.nav-link:hover{
+    color: rgba(0, 0, 0, 0.644) !important;
+}
+
 .home-navbar{
-    background-color: #325adc !important;
+    background-color: #476AE1 !important;
+    opacity: 5;
 }
 
 .toggle-btn{

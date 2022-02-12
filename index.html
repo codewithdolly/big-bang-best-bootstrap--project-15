@@ -25,90 +25,105 @@
 
   <body>
     <!-- Navbar starts -->
-    <div class="container-fluid m-0 p-0">
-      <nav
-        class="navbar navbar-expand-lg navbar-dark home-navbar fixed-top top-nav row m-0 p-0"
-      >
-        <a class="navbar-brand mr-auto pr-3" href="/"
-          ><img class="ml-3" src="./images/logo.png" alt="Big bang" width="50px" height="50px"
-        /></a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
+    <header>
+      <div class="container-fluid">
+        <nav
+          class="navbar navbar-expand-lg home-navbar fixed-top top-nav row navbar-dark"
         >
-          <i class="fa-solid fa-bars navbar-toggler-icon toggle-btn"></i>
-        </button>
+          <a class="navbar-brand mr-auto pr-3" href="/"
+            ><img
+              class="ml-3"
+              src="./images/logo.png"
+              alt="Big bang"
+              width="50px"
+              height="50px"
+          /></a>
+          <button
+            class="navbar-toggler border-0"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fa-solid fa-bars navbar-toggler-icon toggle-btn"></i>
+          </button>
 
-        <div
-          class="collapse navbar-collapse"
-          id="navbarSupportedContent"
-        >
-          <ul class="navbar-nav nav-item ml-auto">
-            <li class="nav-item"><form class="form-inline" method="get" action="">
-              <div class="input-group">
-                <input
-                  type="text"
-                  class="form-control"
-                  placeholder="Username"
-                  aria-label="Username"
-                  aria-describedby="basic-addon1"
-                />
-                <div class="input-group-append">
-                  <span class="input-group-text" id="basic-addon1"
-                    ><i class="fa fa-solid fa fa-magnifying-glass"></i
-                  ></span>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav nav-item ml-auto">
+              <li class="nav-item">
+                <form class="form-inline" method="get" action="">
+                  <div class="input-group">
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="Search..."
+                      aria-label="Search"
+                      aria-describedby="basic-addon1"
+                    />
+                    <div class="input-group-append">
+                      <span class="input-group-text" id="basic-addon1"
+                        ><i class="fa fa-solid fa fa-magnifying-glass"></i
+                      ></span>
+                    </div>
+                  </div>
+                </form>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link px-2" href="#"
+                  >Home <span class="sr-only">(current)</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Categories</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  More
+                </a>
+                <div
+                  class="dropdown-menu dropdown-menu-right text-dark"
+                  aria-labelledby="navbarDropdown"
+                >
+                  <a class="dropdown-item" href="#">Contact</a>
+                  <a class="dropdown-item" href="#">Privacy Policy</a>
+                  <a class="dropdown-item" href="#">Turm of service</a>
                 </div>
-              </div>
-            </form></li>
-            <li class="nav-item">
-              <a class="nav-link  px-2 text-dark " href="#"
-                >Home <span class="sr-only">(current)</span></a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Categories</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdown"
-                role="button"
-                data-toggle="dropdown"
-                aria-haspopup="true"
-                aria-expanded="false"
-              >
-                More
-              </a>
-              <div
-                class="dropdown-menu dropdown-menu-right text-dark"
-                aria-labelledby="navbarDropdown"
-              >
-                <a class="dropdown-item" href="#">Contact</a>
-                <a class="dropdown-item" href="#">Privacy Policy</a>
-                <a class="dropdown-item" href="#">Turm of service</a>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    </div>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
     <!-- Navbar Ends -->
+<div style="margin-top: 5%;"></div>
+
+
+
+
 
     <!-- cards start -->
     <div class="container-fluid">
-      <div class="row m-0 p-0 my-3 d-flex justify-content-center">
+      <div class="row m-0 p-0 my-5 d-flex justify-content-center">
         <!-- single product starts -->
         <div class="card col-sm-12 col-md-3 mx-md-1 my-1">
-          <img src="./images/chair.jpg" class="card-img-top img-fluid" alt="chair" />
+          <img
+            src="./images/chair.jpg"
+            class="card-img-top img-fluid"
+            alt="chair"
+          />
           <div class="card-body">
             <h2 style="font-size: 2rem">chair</h2>
             <p class="card-text">
@@ -120,7 +135,11 @@
         <!-- single product ends -->
         <!-- single product starts -->
         <div class="card col-md-3 mx-md-1 my-1">
-          <img src="./images/chair.jpg" class="card-img-top img-fluid" alt="chair" />
+          <img
+            src="./images/chair.jpg"
+            class="card-img-top img-fluid"
+            alt="chair"
+          />
           <div class="card-body">
             <h2 style="font-size: 2rem">chair</h2>
             <p class="card-text">
@@ -132,7 +151,11 @@
         <!-- single product ends -->
         <!-- single product starts -->
         <div class="card col-md-3 mx-md-1 my-1">
-          <img src="./images/chair.jpg" class="card-img-top img-fluid" alt="chair" />
+          <img
+            src="./images/chair.jpg"
+            class="card-img-top img-fluid"
+            alt="chair"
+          />
           <div class="card-body">
             <h2 style="font-size: 2rem">chair</h2>
             <p class="card-text">
@@ -142,10 +165,14 @@
           </div>
         </div>
         <!-- single product ends -->
-     
+
         <!-- single product starts -->
         <div class="card col-md-3 mx-md-1 my-1">
-          <img src="./images/chair.jpg" class="card-img-top img-fluid" alt="chair" />
+          <img
+            src="./images/chair.jpg"
+            class="card-img-top img-fluid"
+            alt="chair"
+          />
           <div class="card-body">
             <h2 style="font-size: 2rem">chair</h2>
             <p class="card-text">
@@ -157,7 +184,11 @@
         <!-- single product ends -->
         <!-- single product starts -->
         <div class="card col-md-3 mx-md-1 my-1">
-          <img src="./images/chair.jpg" class="card-img-top img-fluid" alt="chair" />
+          <img
+            src="./images/chair.jpg"
+            class="card-img-top img-fluid"
+            alt="chair"
+          />
           <div class="card-body">
             <h2 style="font-size: 2rem">chair</h2>
             <p class="card-text">
