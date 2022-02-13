@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./images/valentines.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    align-items: center;
+    margin-right: 13rem;
+    margin-top: 7.5rem;
+}
+
+h1{
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+.container-fluid{
+    display: flex;
+}
+
+.timer{
+    font-size: 8rem;
+    line-height: 1;
+    margin: 0 2rem;
+
+}
+
+.countdown{
+    text-align: center;
+}
+ span{
+     font-size: 20px;
+ }
